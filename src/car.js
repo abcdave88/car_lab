@@ -4,7 +4,7 @@ function Car(make, model, year, color, state, previousOwners, currentOwner, pass
   this.previousOwners = "";
   this.currentOwner = 'Manufacturer';
   this.passengers = "";
-  
+  this.color = "";
 }
 
 Car.prototype.sale = function(newOwner){
@@ -14,6 +14,7 @@ Car.prototype.sale = function(newOwner){
 };
 
 Car.prototype.paint = function(newColor){
+this.color = "Blue";
 
 };
 

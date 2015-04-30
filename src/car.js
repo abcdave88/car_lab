@@ -1,5 +1,6 @@
-function Car(make, model, year, color){
-  this.year = year
+function Car(make, model, year, color, state){
+  this.year = year;   
+  this.state = 'off';
   
 }
 
@@ -12,4 +13,4 @@ Car.prototype.paint = function(newColor){
 };
 
 
-module.exports=Car;
+module.exports=Car; 
